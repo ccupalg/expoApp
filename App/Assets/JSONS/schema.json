@@ -1,0 +1,179 @@
+let a = {
+  chats: [
+    {
+      _id "parents@example.com"
+      createdAt 26 June 2020 at 11: 29: 31 UTC+5: 30
+      image "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0c7Bzu1MKk0xYfyH9pXL7PuFCPd8GHmYgjS3UGVNsGz4t613W&usqp=CAU"
+      text "I am a parents of your School",
+      user: {
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      }
+      _destroyed: true,
+      _destroyedBy: {}
+    },
+    {
+      _id "parents@example.com"
+      createdAt 26 June 2020 at 11: 29: 31 UTC+5: 30
+      image "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0c7Bzu1MKk0xYfyH9pXL7PuFCPd8GHmYgjS3UGVNsGz4t613W&usqp=CAU"
+      text "I am a parents of your School",
+      user: {
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      }
+      _destroyed: false
+    }
+  ],
+  teachers: [
+    {
+      id: null,
+      userDetails: {
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      },
+    },
+  ],
+  parents: [
+    {
+      id: null,
+      userDetails: {
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      },
+    },
+  ],
+  students: [
+    {
+      id: null,
+      userDetails: {
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      },
+    },
+  ],
+  groups: [
+    {
+      id: null,
+      name: 'BSEB School 2021',
+      members: [
+        {
+          id: null,
+          blocked: true,
+          userDetails: {
+            email "creator@gmail.com"
+            id "creator@gmail.com"
+            name "Mr. Creator Singh"
+            phone "7777777777"
+            groupName "Creator Group"
+            id "creator@gmail.com",
+          },
+        },
+      ],
+      creatorDetails: { //it is as an Admin
+        email "creator@gmail.com"
+        id "creator@gmail.com"
+        name "Mr. Creator Singh"
+        phone "7777777777"
+        groupName "Creator Group"
+        id "creator@gmail.com",
+      }
+      chats: [ //We may use global collection instead 
+        {
+          _id: 1,
+          text: 'I am a student of your School.',
+          createdAt: new Date(),
+          user: {
+            _id: 1,
+            name: 'React Native',
+            avatar: 'https: //placeimg.com/140/140/any',
+          },
+        },
+        {
+          _id: 1,
+          text: 'Hello Teacher',
+          createdAt: new Date(Date.UTC(2020,
+          5,
+          11,
+          17,
+          20,
+          0)),
+          user: {
+            _id: 1,
+            name: 'React Native',
+            avatar: 'https: //placeimg.com/140/140/any',
+          },
+        },
+        {
+          _id: 2,
+          text: 'Hi Students',
+          createdAt: new Date(Date.UTC(2018,
+          5,
+          11,
+          17,
+          20,
+          0)),
+          user: {
+            _id: 2,
+            name: 'React Native',
+            avatar: 'https: //placeimg.com/140/140/any',
+          },
+        },
+        {
+          _id: 2,
+          text: 'Hope you are doing well.',
+          createdAt: new Date(Date.UTC(2017,
+          5,
+          11,
+          17,
+          20,
+          0)),
+          user: {
+            _id: 2,
+            name: 'React Native',
+            avatar: 'https: //placeimg.com/140/140/any',
+          },
+        },
+        {
+          _id: 1,
+          text: 'My message',
+          createdAt: new Date(Date.UTC(2016,
+          5,
+          11,
+          17,
+          20,
+          0)),
+          user: {
+            _id: 2,
+            name: 'React Native',
+            avatar: 'https: //facebook.github.io/react/img/logo_og.png',
+          },
+          image:
+            'https: //encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0c7Bzu1MKk0xYfyH9pXL7PuFCPd8GHmYgjS3UGVNsGz4t613W&usqp=CAU',
+          // You can also add a video prop:
+          // video: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+          // Any additional custom parameters are passed through
+        },
+      ],
+    },
+  ],
+};
